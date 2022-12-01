@@ -1,5 +1,7 @@
 import React from 'react'
 
+const assetPrefix = '/my-port'
+
 export default function Nav() {
   return (
     <>
@@ -8,7 +10,7 @@ export default function Nav() {
           <div className='relative flex h-16 items-center justify-between'>
             <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start'>
               <div className='flex flex-shrink-0 items-center'>
-                <img className='block h-8 w-auto' src='/E.png' alt='my-name' />
+                <img className='block h-8 w-auto' src={`${assetPrefix}/E.png`} alt='my-name' />
               </div>
               <div className='hidden sm:ml-6 sm:block'>
                 <div className='flex space-x-4'>
