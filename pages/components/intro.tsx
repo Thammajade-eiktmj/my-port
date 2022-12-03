@@ -3,7 +3,9 @@ import React from 'react'
 export default function Intro() {
   return (
     <>
-      <div>Intro 1</div>
+      <div className='items-center text-center font-serif text-8xl font-semibold uppercase tracking-widest text-[#FFE0BD]'>
+        <h1> Portfolio</h1>
+      </div>
     </>
   )
 }
