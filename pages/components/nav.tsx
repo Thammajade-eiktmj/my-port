@@ -30,8 +30,8 @@ export default function Nav() {
             </a>
           </div>
           <div className='flex flex-shrink-0 items-center'>
-            <img className='block h-8 w-auto' src='/E.png' alt='my-name' />
-            {/* <img className='block h-8 w-auto' src={`${assetPrefix}/E.png`} alt='my-name' /> */}
+            {/* <img className='block h-8 w-auto' src='/E.png' alt='my-name' /> */}
+            <img className='block h-8 w-auto' src={`${assetPrefix}/E.png`} alt='my-name' />
           </div>
           <div className='flex flex-1 items-center justify-center'>
             <a
@@ -44,7 +44,7 @@ export default function Nav() {
               href='#'
               className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
             >
-              Contact
+              Certificate
             </a>
             <a
               href='#'
