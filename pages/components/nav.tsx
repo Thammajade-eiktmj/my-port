@@ -10,45 +10,45 @@ export default function Nav() {
           <div className='flex flex-1 items-center justify-center'>
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-light text-[#C89B6F] hover:text-white'
             >
               Home
             </a>
 
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-light text-[#C89B6F] hover:text-white'
             >
               Experience
             </a>
 
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-extralight text-[#C89B6F] hover:text-white'
             >
               Tech stack
             </a>
           </div>
-          <div className='flex flex-shrink-0 items-center'>
+          <div className='flex flex-shrink-0 cursor-pointer items-center'>
             {/* <img className='block h-8 w-auto' src='/E.png' alt='my-name' /> */}
             <img className='block h-8 w-auto' src={`${assetPrefix}/E.png`} alt='my-name' />
           </div>
           <div className='flex flex-1 items-center justify-center'>
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-light text-[#C89B6F] hover:text-white'
             >
               Resume
             </a>
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-light text-[#C89B6F] hover:text-white'
             >
               Certificate
             </a>
             <a
               href='#'
-              className='block rounded-md px-3 py-2 font-normal text-[#C89B6F] hover:text-white'
+              className='block rounded-md px-3 py-2 font-light text-[#C89B6F] hover:text-white'
             >
               Contact
             </a>
