@@ -1,20 +1,17 @@
 import React from 'react'
 import Intro from './components/intro'
-import Nav from './components/nav'
+import About from './components/about'
+import Nav from './layout/nav'
 
 export default function Home() {
   return (
     <>
-      <div className='relative h-screen w-screen'>
-        <span className='circle absolute -z-10'></span>
-        <div className='space-x-20 mx-20 my-4 space-y-10'>
-          <div className='z-20'>
-            <Nav />
-          </div>
-          <div className='z-10'>
-            <Intro />
-          </div>
-        </div>
+      <div className='h-screen w-screen bg-slate-800'></div>
+
+      <Nav />
+      <div className='mx-12'>
+        <Intro />
+        <About />
       </div>
     </>
   )

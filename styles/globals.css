@@ -1,55 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html,
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-h1 {
-  font-family: Charm;
-}
-
-a {
-  font-family: Inter;
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: #030303;
-  }
-}
-
-@font-face {
-  font-family: 'Charm';
-  src: url('../asset/Charm-Regular.ttf');
-  font-family: 'Inter';
-  /* src: url('../asset/Inter-Regular.ttf'); */
-  /* src: url('../asset/Inter-Black.ttf'); */
-  /* src: url('../asset/Inter-Bold.ttf'); */
-  /* src: url('../asset/Inter-ExtraBold.ttf'); */
-  /* src: url('../asset/Inter-Light.ttf'); */
-  /* src: url('../asset/Inter-Thin.ttf'); */
-  src: url('../asset/Inter-ExtraLight.ttf');
-  /* src: url('../asset/Inter-Medium.ttf'); */
-  /* src: url('../asset/Inter-SemiBold.ttf'); */
-}
-
-.circle {
-  height: 550px;
-  width: 550px;
-  background-image: radial-gradient(closest-side at 60% 55%, #554029, #030303);
+  background: #f4f8fc;
+  font-family: 'Inter', sans-serif;
 }
