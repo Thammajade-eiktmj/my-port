@@ -28,7 +28,7 @@ export default function Experience() {
             <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/ob.png`}></img>
-                <p className='ml-2 mt-4 font-semibold'>Ookbee Career Project</p>
+                <p className='ml-2 mt-4 font-semibold'>Internship at Ookbee U: Career Project</p>
               </div>
               <p className='m-6 text-center'>
                 {' '}
