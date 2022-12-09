@@ -1,0 +1,74 @@
+import React from 'react'
+
+const assetPrefix = '/my-port'
+
+export default function Experience() {
+  return (
+    <>
+      <div className='py-40 px-52'>
+        <div className='container mx-auto flex flex-col'>
+          <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
+            <p>Experience</p>
+            <svg
+              className='ml-2 h-6 w-6'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z'
+              ></path>
+            </svg>
+          </div>
+          <div className='grid grid-cols-2 gap-10'>
+            <div className='mt-10 w-full rounded-lg bg-white shadow'>
+              <div className='mt-4 ml-4 flex items-center'>
+                <img className='h-10 w-10' src={`${assetPrefix}/ob.png`}></img>
+                <p className='ml-2 font-semibold'>Ookbee Career Project</p>
+              </div>
+              <p className='m-4'>
+                {' '}
+                Respectively. When a user locates a position that interests them, they can search
+                and filter the available positions. Despite the fact that the admin page has JWT
+                token authentication and a reset password method that sends an otp to your email
+                when you forget it. The landing page of the website shows the working environment
+                and has a page with filters for the different kinds of jobs that the organization is
+                looking for.{' '}
+              </p>
+            </div>
+            <div className='mt-10 w-full rounded-lg bg-white shadow'>
+              <div className='mt-4 ml-4 flex items-center'>
+                <img className='h-10 w-10' src={`${assetPrefix}/vango.png`}></img>
+                <p className='ml-2 font-semibold'>Capstone Project: Reservation Van</p>
+              </div>
+              <p className='m-4'>
+                {' '}
+                Can allow drivers and passengers to see the schedule time, identify passengers who
+                have registered their cars on their maps, and view the route path, which can
+                estimate time and distance from the driver's location. As a result, we have an admin
+                cms admin who can control the vehicle, schedule, and route.{' '}
+              </p>
+            </div>
+            <div className='mt-10 w-full rounded-lg bg-white shadow'>
+              <div className='mt-4 ml-4 flex items-center'>
+                <img className='h-10 w-10' src={`${assetPrefix}/sprout.png`}></img>
+                <p className='ml-2 font-semibold'>University Project: Reforestation</p>
+              </div>
+              <p className='m-4'>
+                {' '}
+                The main idea is to emphasize the value of forests. We created a platform that is
+                based on the SDGs and uses Flutter to code. Users can publish activities related to
+                the forest to invite others to participate in those activities. The system also
+                contains login and profile systems so users can change their own information.{' '}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}

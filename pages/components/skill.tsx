@@ -5,8 +5,8 @@ const assetPrefix = '/my-port'
 export default function Skill() {
   return (
     <>
-      <div className='container mx-auto'>
-        <div className='flex h-screen flex-col items-center justify-center'>
+      <div className='py-40 px-52'>
+        <div className='container mx-auto flex flex-col'>
           <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
             <p>SKills</p>
             <svg
@@ -24,7 +24,7 @@ export default function Skill() {
               ></path>
             </svg>
           </div>
-          <div className='mt-4 grid grid-cols-5 gap-10'>
+          <div className='mt-10 grid grid-cols-5 gap-10'>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/ts.png`} />
               <p className='ml-2'>TypeScript</p>

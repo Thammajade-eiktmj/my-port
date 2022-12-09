@@ -1,4 +1,5 @@
 import React from 'react'
+import Experience from './components/experience'
 import Intro from './components/intro'
 import Skill from './components/skill'
 
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Intro />
       <Skill />
+      <Experience />
     </>
   )
 }
