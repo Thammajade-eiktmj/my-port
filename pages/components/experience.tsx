@@ -66,6 +66,22 @@ export default function Experience() {
                 contains login and profile systems so users can change their own information.{' '}
               </p>
             </div>
+            <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
+              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
+                <img className='h-10 w-10' src={`${assetPrefix}/programming.png`}></img>
+                <p className='ml-2 mt-4 font-semibold'>Workshop: Javascript</p>
+              </div>
+              <div className='m-6'>
+                <p className='text-center'> Postpost(Posting site for random image in post.)</p>
+                <p className='text-center'>
+                  maphoto(Image search engine website. If search for dog, it’s will show only images
+                  of dog)
+                </p>
+                <p className='text-center'>
+                  Seasons(Wether and season forecast based on user location.){' '}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
