@@ -53,7 +53,7 @@ export default function Experience() {
                 cms admin who can control the vehicle, schedule, and route.{' '}
               </p>
             </div>
-            <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
+            <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/sprout.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>University Project: Reforestation</p>
