@@ -55,7 +55,7 @@ export default function Experience() {
             </div>
             <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/sprout.png`}></img>
+                <img className='h-10 w-10' src={`${assetPrefix}/plant1.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>University Project: Reforestation</p>
               </div>
               <p className='m-6 text-center'>
