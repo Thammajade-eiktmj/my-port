@@ -25,12 +25,12 @@ export default function Experience() {
             </svg>
           </div>
           <div className='grid grid-cols-2 gap-10'>
-            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 shadow'>
-              <div className='mt-4 ml-4 items-center justify-center'>
+            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 pt-8 shadow'>
+              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/ob.png`}></img>
-                <p className='ml-2 font-semibold'>Ookbee Career Project</p>
+                <p className='ml-2 mt-4 font-semibold'>Ookbee Career Project</p>
               </div>
-              <p className='m-4 text-center'>
+              <p className='m-6 text-center'>
                 {' '}
                 Respectively. When a user locates a position that interests them, they can search
                 and filter the available positions. Despite the fact that the admin page has JWT
@@ -40,12 +40,12 @@ export default function Experience() {
                 looking for.{' '}
               </p>
             </div>
-            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 shadow'>
-              <div className='mt-4 ml-4 items-center'>
+            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 pt-8 shadow'>
+              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/vango.png`}></img>
-                <p className='ml-2 font-semibold'>Capstone Project: Reservation Van</p>
+                <p className='ml-2 mt-4 font-semibold'>Capstone Project: Reservation Van</p>
               </div>
-              <p className='m-4 text-center'>
+              <p className='m-6 text-center'>
                 {' '}
                 Can allow drivers and passengers to see the schedule time, identify passengers who
                 have registered their cars on their maps, and view the route path, which can
@@ -53,12 +53,12 @@ export default function Experience() {
                 cms admin who can control the vehicle, schedule, and route.{' '}
               </p>
             </div>
-            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 shadow'>
-              <div className='mt-4 ml-4 items-center'>
+            <div className='mt-10 w-full rounded-lg bg-white py-6 px-8 pt-8 shadow'>
+              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/sprout.png`}></img>
-                <p className='ml-2 font-semibold'>University Project: Reforestation</p>
+                <p className='ml-2 mt-4 font-semibold'>University Project: Reforestation</p>
               </div>
-              <p className='m-4 text-center'>
+              <p className='m-6 text-center'>
                 {' '}
                 The main idea is to emphasize the value of forests. We created a platform that is
                 based on the SDGs and uses Flutter to code. Users can publish activities related to
