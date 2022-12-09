@@ -3,34 +3,14 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-      <footer className='rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:flex md:items-center md:justify-between md:p-6'>
-        <span className='text-sm text-gray-500 dark:text-gray-400 sm:text-center'>
-          © 2022{' '}
-          <a href='https://flowbite.com/' className='hover:underline'>
-            Flowbite™
-          </a>
-          . All Rights Reserved.
-        </span>
-        <ul className='mt-3 flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0'>
+      <footer className='rounded-lg bg-slate-800 p-4 shadow md:flex md:items-center md:justify-between md:p-6'>
+        <span className='text-sm text-slate-400 sm:text-center'>© 2022 . All Rights Reserved.</span>
+        <ul className='mt-3 flex flex-wrap items-center text-sm text-slate-400 sm:mt-0'>
           <li>
-            <a href='#' className='mr-4 hover:underline md:mr-6 '>
-              About
-            </a>
+            <p className='mr-4 hover:underline md:mr-6 text-slate-400'>Email: Thammajade.kewq@gmail.com</p>
           </li>
           <li>
-            <a href='#' className='mr-4 hover:underline md:mr-6'>
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href='#' className='mr-4 hover:underline md:mr-6'>
-              Licensing
-            </a>
-          </li>
-          <li>
-            <a href='#' className='hover:underline'>
-              Contact
-            </a>
+            <p className='mr-4 hover:underline md:mr-6 text-slate-400'>Tel: 081-116-8836</p>
           </li>
         </ul>
       </footer>
