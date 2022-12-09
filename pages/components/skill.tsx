@@ -62,8 +62,16 @@ export default function Skill() {
               <p className='mt-6'>Postgresql</p>
             </div>
             <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
+              <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/docker.png`} />
+              <p className='mt-6'>Docker</p>
+            </div>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/li.png`} />
               <p className='mt-6'>Linux</p>
+            </div>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
+              <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/git.png`} />
+              <p className='mt-6'>Git</p>
             </div>
           </div>
         </div>
