@@ -24,46 +24,46 @@ export default function Skill() {
               ></path>
             </svg>
           </div>
-          <div className='mt-10 grid grid-flow-col grid-rows-2 gap-10'>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
-              <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/ts.png`} />
-              <p className='ml-2 mt-6'>TypeScript</p>
+          <div className='mt-10 grid grid-flow-col grid-rows-2 items-center justify-center gap-12'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
+              <img className='block h-12 w-12 rounded-full' src={`${assetPrefix}/ts.png`} />
+              <div className='mt-6'>TypeScript</div>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/tw1.png`} />
-              <p className='ml-2 mt-6'>Tailwindcss</p>
+              <p className='mt-6'>Tailwind</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/react.png`} />
-              <p className='ml-2 mt-6'>ReactJs</p>
+              <p className='mt-6'>React</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/react.png`} />
-              <p className='ml-2 mt-6'>React Native</p>
+              <p className='mt-6'>Native</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}//next.jpeg`} />
-              <p className='ml-2 mt-6'>NextJs</p>
+              <p className='mt-6'>Next</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/nestjs.png`} />
-              <p className='ml-2 mt-6'>NestJs</p>
+              <p className='mt-6'>Nest</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/net.png`} />
-              <p className='ml-2 mt-6'>.Net</p>
+              <p className='mt-6'>.Net</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/typeorm.png`} />
-              <p className='ml-2 mt-6'>TypeOrm</p>
+              <p className='mt-6'>TypeOrm</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/ps.png`} />
-              <p className='ml-2 mt-6'>Postgresql</p>
+              <p className='mt-6'>Postgresql</p>
             </div>
-            <div className='flex max-w-[180px] flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
+            <div className='flex h-[130px] w-[130px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
               <img className='h-12 w-12 rounded-full' src={`${assetPrefix}/li.png`} />
-              <p className='ml-2 mt-6'>Linux</p>
+              <p className='mt-6'>Linux</p>
             </div>
           </div>
         </div>
