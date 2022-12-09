@@ -24,46 +24,46 @@ export default function Skill() {
               ></path>
             </svg>
           </div>
-          <div className='mt-10 grid grid-cols-5 gap-10'>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+          <div className='mt-10 grid grid-cols-7 gap-10'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/ts.png`} />
-              <p className='ml-2'>TypeScript</p>
+              <p className=''>TypeScript</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/tw1.png`} />
-              <p className='ml-2'>Tailwindcss</p>
+              <p className='ml-2 mt-2'>Tailwindcss</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/react.png`} />
-              <p className='ml-2'>ReactJs</p>
+              <p className='ml-2 mt-2'>ReactJs</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/react.png`} />
-              <p className='ml-2'>React Native</p>
+              <p className='ml-2 mt-2'>React Native</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}//next.jpeg`} />
-              <p className='ml-2'>NextJs</p>
+              <p className='ml-2 mt-2'>NextJs</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/nestjs.png`} />
-              <p className='ml-2'>NestJs</p>
+              <p className='ml-2 mt-2'>NestJs</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/net.png`} />
-              <p className='ml-2'>.Net</p>
+              <p className='ml-2 mt-2'>.Net</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/typeorm.png`} />
-              <p className='ml-2'>TypeOrm</p>
+              <p className='ml-2 mt-2'>TypeOrm</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-[10px] bg-white py-12 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/ps.png`} />
-              <p className='ml-2'>Postgresql</p>
+              <p className='ml-2 mt-2'>Postgresql</p>
             </div>
-            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+            <div className='flex flex-col items-center justify-center rounded-lg bg-white py-10 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/li.png`} />
-              <p className='ml-2'>Linux</p>
+              <p className='ml-2 mt-2'>Linux</p>
             </div>
           </div>
         </div>
