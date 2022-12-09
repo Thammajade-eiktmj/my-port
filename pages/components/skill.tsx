@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function Skill() {
+  const assetPrefix = '/my-port'
+
   return (
     <>
       <div className='container mx-auto'>
@@ -24,35 +26,35 @@ export default function Skill() {
           </div>
           <div className='mt-4 grid grid-cols-5 gap-10'>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='ts.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/ts.png' />
               <p className='ml-2'>TypeScript</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='tw1.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/tw1.png' />
               <p className='ml-2'>Tailwindcss</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='/react.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port//react.png' />
               <p className='ml-2'>ReactJs</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='/next.jpeg' />
+              <img className='h-10 w-10 rounded-full' src='/my-port//next.jpeg' />
               <p className='ml-2'>NextJs</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='nestjs.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/nestjs.png' />
               <p className='ml-2'>NestJs</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='typeorm.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/typeorm.png' />
               <p className='ml-2'>TypeOrm</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='ps.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/ps.png' />
               <p className='ml-2'>Postgresql</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
-              <img className='h-10 w-10 rounded-full' src='li.png' />
+              <img className='h-10 w-10 rounded-full' src='/my-port/li.png' />
               <p className='ml-2'>Linux</p>
             </div>
           </div>
