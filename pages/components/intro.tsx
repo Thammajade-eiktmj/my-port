@@ -1,12 +1,14 @@
 import React from 'react'
 
+const assetPrefix = '/my-port'
+
 export default function Intro() {
   return (
     <>
       <div className='h-screen w-screen bg-slate-800 text-slate-200'>
         <div className='flex flex-col'>
           <div className='flex h-screen flex-col items-center justify-center'>
-            <img src='/my-port//kin.png' className='h-[8rem] w-[8rem] rounded-full' />
+            <img src={`${assetPrefix}/kin.png`} className='h-[8rem] w-[8rem] rounded-full' />
             <h3 className='mt-4 text-4xl font-extrabold text-slate-50'>Eik</h3>
             <p className='mt-4 text-center font-medium text-green-400'>Junior Developer</p>
             <svg
