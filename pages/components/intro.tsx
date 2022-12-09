@@ -117,6 +117,12 @@ export default function Intro() {
                   <p className='text-start text-slate-100'>www.linkedin.com/in/thammajade</p>
                 </div>
               </div>
+              <button
+                type='button'
+                className='mr-2 mb-2 mt-6 rounded-full bg-slate-700 px-5 py-2.5 text-center text-sm font-medium text-slate-50 hover:bg-green-400 hover:text-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-300'
+              >
+                Download CV
+              </button>
             </div>
           </div>
         </div>

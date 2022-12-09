@@ -38,12 +38,20 @@ export default function Skill() {
               <p className='ml-2'>ReactJs</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+              <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/react.png`} />
+              <p className='ml-2'>React Native</p>
+            </div>
+            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}//next.jpeg`} />
               <p className='ml-2'>NextJs</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/nestjs.png`} />
               <p className='ml-2'>NestJs</p>
+            </div>
+            <div className='flex items-center rounded-lg bg-white p-4 shadow'>
+              <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/net.png`} />
+              <p className='ml-2'>.Net</p>
             </div>
             <div className='flex items-center rounded-lg bg-white p-4 shadow'>
               <img className='h-10 w-10 rounded-full' src={`${assetPrefix}/typeorm.png`} />
