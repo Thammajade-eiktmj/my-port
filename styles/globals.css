@@ -7,6 +7,7 @@ body {
 }
 @layer base {
   html {
+    background-color: #1e293b;
     font-family: 'Poppins', sans-serif !important;
     font-size: 14px;
     letter-spacing: 1px;
