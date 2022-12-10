@@ -159,7 +159,7 @@ export default function Intro() {
                       window.open('eik.pdf')
                     }}
                     type='button'
-                    className='group relative mt-6 mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-r from-sky-400 to-emerald-600 p-0.5 text-sm font-medium text-slate-50 shadow-2xl shadow-slate-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-800 group-hover:from-green-400 group-hover:to-blue-600'
+                    className='z-10 group relative mt-6 mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-r from-sky-400 to-emerald-600 p-0.5 text-sm font-medium text-slate-50 shadow-2xl shadow-slate-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-800 group-hover:from-green-400 group-hover:to-blue-600'
                   >
                     <span className='relative rounded-md bg-slate-900 px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0'>
                       Download CV
