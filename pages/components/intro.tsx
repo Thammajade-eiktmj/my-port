@@ -10,15 +10,15 @@ export default function Intro() {
           <div className='container mx-auto flex flex-col'>
             <div className='flex h-screen items-center justify-around'>
               <div className=''>
-                <img src='/iphone.png' />
+                <img src={`${assetPrefix}/iphone.png`} />
               </div>
               <div className='justify-self-end rounded-[10px] p-10'>
                 <div className='flex flex-col items-center justify-center justify-self-end'>
-                  <img src='/kin.png' className='h-[8rem] w-[8rem] rounded-full' />
+                  <img src={`${assetPrefix}/kin.png`} className='h-[8rem] w-[8rem] rounded-full' />
                   <h3 className='mt-6 text-4xl font-extrabold text-slate-50'>Eik</h3>
                   <span className='mt-6 bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text font-semibold text-transparent'>
                     Web Developer
-                  </span>{' '}
+                  </span>
                   <svg
                     className='mt-6 h-6 w-6 cursor-pointer text-slate-50'
                     fill='none'
