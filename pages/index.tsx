@@ -1,5 +1,4 @@
 import React from 'react'
-import Certificate from './components/certificate'
 import Education from './components/education'
 import Experience from './components/experience'
 import Intro from './components/intro'
