@@ -5,7 +5,7 @@ const assetPrefix = '/my-port'
 export default function Certificate() {
   return (
     <>
-      <div className='py-40 px-[40rem]'>
+      <div className='ml-20'>
         <div className='container mx-auto flex flex-col'>
           <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
             <p>Certificate</p>

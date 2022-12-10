@@ -11,7 +11,7 @@ export default function Intro() {
             <div className='flex h-screen flex-col items-center justify-center'>
               <img src={`${assetPrefix}/kin.png`} className='h-[8rem] w-[8rem] rounded-full' />
               <h3 className='mt-4 text-4xl font-extrabold text-slate-50'>Eik</h3>
-              <p className='mt-4 text-center font-medium text-green-400'>Junior Developer</p>
+              <p className='mt-4 text-center font-medium text-green-400'>Web Developer</p>
               <svg
                 className='mt-4 h-6 w-6 cursor-pointer text-slate-50'
                 fill='none'
@@ -125,7 +125,7 @@ export default function Intro() {
                   window.open('eik.pdf')
                 }}
                 type='button'
-                className='mr-2 mb-2 mt-6 rounded-full bg-slate-700 px-5 py-2.5 text-center text-sm font-medium text-slate-50 hover:bg-green-400 hover:text-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-300'
+                className='mr-2 mb-2 mt-6 rounded-full bg-slate-700 px-5 py-2.5 text-center text-sm font-medium text-slate-50 hover:bg-green-400 hover:text-slate-700 focus:outline-none focus:ring-2 focus:ring-green-400'
               >
                 Download CV
               </button>

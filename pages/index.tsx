@@ -12,7 +12,6 @@ export default function Home() {
       <Skill />
       <Experience />
       <Education />
-      <Certificate />
     </>
   )
 }
