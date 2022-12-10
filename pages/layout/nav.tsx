@@ -7,7 +7,7 @@ export default function Nav() {
     <>
       <nav className='fixed w-full bg-slate-900 px-2 py-3 sm:px-4'>
         <div className='container mx-auto flex flex-wrap items-center justify-around'>
-          <img src='/E.png' className='mr-3 h-6 sm:h-9' />
+          <img src={`${assetPrefix}/E.png`} className='mr-3 h-6 sm:h-9' />
           <ul className='mt-4 flex flex-col space-x-8 p-4 md:mt-0 md:flex-row md:text-sm md:font-medium'>
             <li>
               <a
