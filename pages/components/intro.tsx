@@ -11,10 +11,10 @@ export default function Intro() {
             <div
               className='relative bg-cover bg-center bg-no-repeat'
               style={{
-                backgroundImage: `url("/bg.png")`,
+                backgroundImage: `url(${assetPrefix}/bg.png)`,
               }}
             >
-              <img className='relative w-full' src='/16x9.png' alt='' />
+              <img className='relative w-full' src={`${assetPrefix}/16x9.png`} alt='' />
               <div className='absolute top-[50%] left-[50%] flex w-full translate-x-[-50%] translate-y-[-50%] flex-col items-center '>
                 <img src={`${assetPrefix}/kin.png`} className='h-[8rem] w-[8rem] rounded-full' />
                 <h3 className='mt-6 text-4xl font-extrabold text-slate-50'>Eik</h3>
