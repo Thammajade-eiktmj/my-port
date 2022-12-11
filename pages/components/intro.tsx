@@ -15,7 +15,13 @@ export default function Intro() {
                   style={{
                     backgroundImage: `url(${assetPrefix}/bgip.webp)`,
                   }}
-                ></div>
+                >
+                  <div className='island'></div>
+                </div>
+                <i className='btn'></i>
+                <i className='btn btn2'></i>
+                <i className='btn btn3'></i>
+                <i className='rightbutton'></i>
               </div>
               <div className='justify-self-end rounded-[10px] p-10'>
                 <div className='flex flex-col items-center justify-center justify-self-end'>

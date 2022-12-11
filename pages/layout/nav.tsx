@@ -12,7 +12,7 @@ export default function Nav() {
             <li>
               <a
                 href='#'
-                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-green-400 hover:text-green-400 md:border-0 md:p-0'
+                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-slate-500 hover:text-sky-400 md:border-0 md:p-0'
                 aria-current='page'
               >
                 Home
@@ -21,7 +21,7 @@ export default function Nav() {
             <li>
               <a
                 href='#'
-                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-slate-50 hover:text-green-400 md:border-0 md:p-0'
+                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-slate-500 hover:text-sky-400 md:border-0 md:p-0'
               >
                 Skill
               </a>
@@ -29,7 +29,7 @@ export default function Nav() {
             <li>
               <a
                 href='#'
-                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-50 hover:text-green-400 md:border-0 md:p-0'
+                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-500 hover:text-sky-400 md:border-0 md:p-0'
               >
                 Experience
               </a>
@@ -37,7 +37,7 @@ export default function Nav() {
             <li>
               <a
                 href='#'
-                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-50 hover:text-green-400 md:border-0 md:p-0'
+                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-500 hover:text-sky-400 md:border-0 md:p-0'
               >
                 Education
               </a>
@@ -45,7 +45,7 @@ export default function Nav() {
             <li>
               <a
                 href='#'
-                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-50 hover:text-green-400 md:border-0 md:p-0'
+                className='block rounded py-2 pl-3 pr-4 text-base font-semibold text-gray-500 hover:text-sky-400 md:border-0 md:p-0'
               >
                 Certificate
               </a>

@@ -15,11 +15,12 @@ body {
   }
 }
 
+/* iphone */
 .box {
   position: relative;
   width: 300px;
   height: 600px;
-  background: #98acc0;
+  background: #707b8a;
   border-radius: 50px;
 }
 
@@ -40,10 +41,58 @@ body {
   border: 10px solid #000;
   display: flex;
   justify-content: center;
-  opacity: 0;
   transition: 0.5s;
 }
 
-.box:hover .inner {
-  opacity: 1;
+/* button iphone */
+
+.btn {
+  position: absolute;
+  top: 110px;
+  left: -2px;
+  width: 2px;
+  height: 26px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: radial-gradient(#ccc, #707b8a, #222);
+  z-index: 10;
 }
+.btn.btn2 {
+  top: 160px;
+  height: 40px;
+}
+
+.btn.btn3 {
+  top: 220px;
+  height: 40px;
+}
+
+.rightbutton {
+  position: absolute;
+  top: 170px;
+  right: -2px;
+  width: 2px;
+  height: 70px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: radial-gradient(#ccc, #707b8a, #222);
+  z-index: 10;
+}
+/* button iphone */
+
+/* island pop-up */
+.island {
+  position: absolute;
+  top: 10px;
+  width: 90px;
+  height: 25px;
+  background: #000;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.island:hover {
+  width: 200px;
+  height: 25px;
+}
+/* iphone */
