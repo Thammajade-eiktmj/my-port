@@ -14,3 +14,36 @@ body {
     font-weight: 200;
   }
 }
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background: #98acc0;
+  border-radius: 50px;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  background: #000;
+  border-radius: 48px;
+}
+
+.inner {
+  position: absolute;
+  inset: 3px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  border: 10px solid #000;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.box:hover .inner {
+  opacity: 1;
+}
