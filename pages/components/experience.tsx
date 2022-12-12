@@ -27,7 +27,7 @@ export default function Experience() {
           <div className='grid grid-cols-2 gap-10'>
             <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/ob.png`}></img>
+                <img className='h-10 w-10' src={`${assetPrefix}/exp/ob.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>Internship at Ookbee U</p>
                 <p className='ml-2 mt-1'>Fullstack Developer, June-December</p>
               </div>
@@ -43,7 +43,7 @@ export default function Experience() {
             </div>
             <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/vango.png`}></img>
+                <img className='h-10 w-10' src={`${assetPrefix}/exp/vango.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>Capstone Project</p>
                 <p className='ml-2 mt-1'>Fullstack Developer</p>
               </div>
@@ -57,7 +57,7 @@ export default function Experience() {
             </div>
             <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/plant1.png`}></img>
+                <img className='h-10 w-10' src={`${assetPrefix}/exp/plant1.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>University Project</p>
               </div>
               <p className='m-6 text-center'>
@@ -71,7 +71,7 @@ export default function Experience() {
             </div>
             <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/programming.png`}></img>
+                <img className='h-10 w-10' src={`${assetPrefix}/exp/programming.png`}></img>
                 <p className='ml-2 mt-4 font-semibold'>Workshop</p>
               </div>
               <div className='m-6'>

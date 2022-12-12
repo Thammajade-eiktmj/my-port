@@ -1,4 +1,3 @@
-import { keyframes } from '@emotion/react'
 import React from 'react'
 
 const assetPrefix = '/my-port'
@@ -14,7 +13,7 @@ export default function Intro() {
                 <div
                   className='inner'
                   style={{
-                    backgroundImage: `url(${assetPrefix}/iphone/ip1.png)`,
+                    backgroundImage: `url(/iphone/ip1.png)`,
                   }}
                 >
                   <div className='island'></div>
