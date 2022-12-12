@@ -41,7 +41,6 @@ body {
   border: 10px solid #000;
   display: flex;
   justify-content: center;
-  animation: change 8s infinite;
 }
 
 @keyframes change {

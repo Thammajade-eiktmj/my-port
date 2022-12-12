@@ -42,7 +42,7 @@ export default function Skill() {
               <p className='mt-6'>Native</p>
             </div>
             <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/next.jpeg`} />
+              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}//next.jpeg`} />
               <p className='mt-6'>Next</p>
             </div>
             <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
