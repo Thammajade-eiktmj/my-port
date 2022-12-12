@@ -4,20 +4,6 @@ import React from 'react'
 const assetPrefix = '/my-port'
 
 export default function Intro() {
-  var change = keyframes`
-  0% {
-    background-image: url(${assetPrefix}/ip1.png');
-  }
-  30% {
-    background-image: url(${assetPrefix}/ip2.png');
-  }
-  60% {
-    background-image: url(${assetPrefix}/ip3.png');
-  }
-  100% {
-    background-image: url(${assetPrefix}/ip1.png');
-  }
-}`
   return (
     <>
       <div className='h-screen w-screen bg-gradient-to-tr from-slate-800 via-slate-900 to-slate-900 text-slate-200'>
@@ -28,8 +14,7 @@ export default function Intro() {
                 <div
                   className='inner'
                   style={{
-                    backgroundImage: `url(bg.png)`,
-                    animation: `${change} 8s infinite`,
+                    backgroundImage: `url(${assetPrefix}/iphone/ip1.png)`,
                   }}
                 >
                   <div className='island'></div>
