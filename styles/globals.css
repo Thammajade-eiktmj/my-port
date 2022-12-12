@@ -40,13 +40,12 @@ body {
   border-radius: 48px;
   border: 10px solid #000;
   display: flex;
-  animation: change 8s infinite;
   justify-content: center;
 }
 
 @keyframes change {
   0% {
-    background-image: url('/iphone/ip1.png');
+    background-image: url('/my-port/iphone/ip1.png');
   }
   30% {
     background-image: url('/iphone/ip2.png');
