@@ -3,7 +3,7 @@ import React from 'react'
 const assetPrefix = '/my-port'
 
 export default function Intro() {
-  const keyframesStyle = `
+  const change = `
   @-webkit-keyframes change {
     0% {
       background-image: url(${assetPrefix}/iphone/ip1.png);
@@ -27,7 +27,7 @@ export default function Intro() {
                 <div
                   className='inner'
                   style={{
-                    backgroundImage: `url(/iphone/ip1.png)`,
+                    backgroundImage: `url(${assetPrefix}/iphone/ip1.png)`,
                     WebkitAnimation: 'change 8s infinite',
                   }}
                 >
