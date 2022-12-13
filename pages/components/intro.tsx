@@ -13,8 +13,7 @@ export default function Intro() {
                 <div
                   className='inner'
                   style={{
-                    backgroundImage: `url(${assetPrefix}/iphone/ip1.png)`,
-                    animation: 'change 8s infinite',
+                  
                   }}
                 >
                   <div className='island'></div>

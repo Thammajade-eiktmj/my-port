@@ -41,22 +41,24 @@ body {
   border: 10px solid #000;
   display: flex;
   justify-content: center;
+  background-image: url('/iphone/ip1.png');
+  animation: 'change 8s infinite';
 }
 
-@keyframes change {
+/* @keyframes change {
   0% {
-    background-image: url(`{$/my-port}/iphone/ip1.png`);
+    background-image: url('/iphone/ip1.png');
   }
   30% {
-    background-image: url(`{$/my-port}/iphone/ip2.png`);
+    background-image: url('/iphone/ip2.png');
   }
   60% {
-    background-image: url(`{$/my-port}/iphone/ip3.png`);
+    background-image: url('/iphone/ip3.png');
   }
   100% {
-    background-image: url(`{$/my-port}/iphone/ip1.png`);
+    background-image: url('/iphone/ip1.png');
   }
-}
+} */
 /* button iphone */
 
 .btn {
