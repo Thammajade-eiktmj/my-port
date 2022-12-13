@@ -41,7 +41,7 @@ body {
   border: 10px solid #000;
   display: flex;
   justify-content: center;
-  background-image: url('/iphone/ip1.png');
+  background-image: url('/public/iphone/ip1.png');
   animation: 'change 8s infinite';
 }
 
