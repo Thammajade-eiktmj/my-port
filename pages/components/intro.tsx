@@ -13,7 +13,7 @@ export default function Intro() {
                 <div
                   className='inner'
                   style={{
-                  
+                    backgroundImage: `url(${assetPrefix}/iphone/ip1.png)`,
                   }}
                 >
                   <div className='island'></div>

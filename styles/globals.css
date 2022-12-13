@@ -41,11 +41,10 @@ body {
   border: 10px solid #000;
   display: flex;
   justify-content: center;
-  background-image: url('/public/iphone/ip1.png');
   animation: 'change 8s infinite';
 }
 
-/* @keyframes change {
+@keyframes change {
   0% {
     background-image: url('/iphone/ip1.png');
   }
@@ -58,7 +57,7 @@ body {
   100% {
     background-image: url('/iphone/ip1.png');
   }
-} */
+}
 /* button iphone */
 
 .btn {
