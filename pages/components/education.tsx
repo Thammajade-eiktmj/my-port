@@ -91,7 +91,15 @@ export default function Education() {
                   </time>
                   <h3 className='text-lg font-semibold text-gray-900'>Kaggle</h3>
                   <p className='text-base font-normal text-gray-500'>Intro to Machine learning</p>
-                  <a className='cursor-pointer font-semibold underline'>View</a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault()
+                      window.open('cer2.png')
+                    }}
+                    className='cursor-pointer font-semibold underline'
+                  >
+                    View
+                  </a>
                 </li>
                 <li className='mb-10 ml-4'>
                   <div className='borderborder-gray-900 absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full bg-gray-700'></div>
@@ -103,7 +111,15 @@ export default function Education() {
                     Human Subjects Research (HSR) (Curriculum Group) BioMed-Social Sci for Bachelor
                     and Master Students (HSR) (Course Learner Group){' '}
                   </p>
-                  <a className='cursor-pointer font-semibold underline'>View</a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault()
+                      window.open('cer1.pdf')
+                    }}
+                    className='cursor-pointer font-semibold underline'
+                  >
+                    View
+                  </a>
                 </li>
               </ol>
             </div>
