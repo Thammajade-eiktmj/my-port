@@ -1,6 +1,65 @@
 import React from 'react'
+import SkillBox from './skillBox'
+import SkillIcon from './icon/skillIcon'
 
-const assetPrefix = '/my-port'
+interface Skills {
+  id: string
+  imgSrc: string
+  name: string
+}
+
+const skills: Skills[] = [
+  {
+    id: '0',
+    imgSrc: '/skills/ts.png',
+    name: 'TypeScript',
+  },
+  {
+    id: '1',
+    imgSrc: '/skills/tw1.png',
+    name: 'Tailwind',
+  },
+  {
+    id: '2',
+    imgSrc: '/skills/react.png',
+    name: 'React',
+  },
+  {
+    id: '3',
+    imgSrc: '/skills/next.png',
+    name: 'Next',
+  },
+  {
+    id: '4',
+    imgSrc: '/skills/nest.png',
+    name: 'Nest',
+  },
+  {
+    id: '5',
+    imgSrc: '/skills/net.png',
+    name: 'DotNext',
+  },
+  {
+    id: '6',
+    imgSrc: '/skills/typeorm.png',
+    name: 'TypeOrm',
+  },
+  {
+    id: '7',
+    imgSrc: '/skills/docker.png',
+    name: 'Docker',
+  },
+  {
+    id: '8',
+    imgSrc: '/skills/li.png',
+    name: 'Linux',
+  },
+  {
+    id: '8',
+    imgSrc: '/skills/git.png',
+    name: 'Git',
+  },
+]
 
 export default function Skill() {
   return (
@@ -9,71 +68,12 @@ export default function Skill() {
         <div className='container mx-auto flex flex-col'>
           <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase'>
             <p>SKills</p>
-            <svg
-              className='ml-2 h-6 w-6'
-              fill='none'
-              stroke='currentColor'
-              viewBox='0 0 24 24'
-              xmlns='http://www.w3.org/2000/svg'
-            >
-              <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
-                d='M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
-              ></path>
-            </svg>
+            <SkillIcon />
           </div>
-          <div className='mt-10 grid grid-flow-col grid-rows-2 items-center justify-center gap-16'>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='block h-14 w-14 rounded-full' src={`${assetPrefix}/skill/ts.png`} />
-              <div className='mt-6'>TypeScript</div>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/tw1.png`} />
-              <p className='mt-6'>Tailwind</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/react.png`} />
-              <p className='mt-6'>React</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/react.png`} />
-              <p className='mt-6'>Native</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill//next.jpeg`} />
-              <p className='mt-6'>Next</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/nestjs.png`} />
-              <p className='mt-6'>Nest</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/net.png`} />
-              <p className='mt-6'>.Net</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/typeorm.png`} />
-              <p className='mt-6'>TypeOrm</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/ps.png`} />
-              <p className='mt-6'>Postgresql</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/docker.png`} />
-              <p className='mt-6'>Docker</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/li.png`} />
-              <p className='mt-6'>Linux</p>
-            </div>
-            <div className='flex h-[150px] w-[150px] flex-col items-center justify-center rounded-[10px] bg-white p-6 shadow'>
-              <img className='h-14 w-14 rounded-full' src={`${assetPrefix}/skill/git.png`} />
-              <p className='mt-6'>Git</p>
-            </div>
-          </div>
+          <div className='mt-10 grid grid-flow-col grid-rows-2 items-center justify-center gap-16'></div>
+          {skills.map((skill) => (
+            <SkillBox key={skill.id} imgSrc={skill.imgSrc} name={skill.name} />
+          ))}
         </div>
       </div>
     </>
