@@ -2,13 +2,13 @@ import React from 'react'
 import SkillBox from './skillBox'
 import SkillIcon from './icon/skillIcon'
 
-interface Skills {
+interface Skill {
   id: string
   imgSrc: string
   name: string
 }
 
-const skills: Skills[] = [
+const skills: Skill[] = [
   {
     id: '0',
     imgSrc: '/skills/ts.png',

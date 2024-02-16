@@ -1,7 +1,71 @@
 import React from 'react'
 import ExperienceIcon from './icon/experienceIcon'
+import ExperienceBox from './experienceBox'
 
-const assetPrefix = '/my-port'
+interface Experience {
+  id: string
+  imgSrc: string
+  title: string
+  position: string
+  period: string
+  description: string
+}
+
+const experiences: Experience[] = [
+  {
+    id: '5',
+    imgSrc: 'lag-hyperlink.png',
+    title: 'Fulltime at Lab Hyperlink',
+    position: 'Fullstack Developer',
+    period: 'current',
+    description: 'In addition experiences in Node.js, Express.js, React.js and further more',
+  },
+  {
+    id: '5',
+    imgSrc: '/exp/devcula_logo.jpeg',
+    title: 'Fulltime at Devcula',
+    position: 'Frontend Developer',
+    period: '2023-2024',
+    description:
+      'In my one-year tenure as a frontend developer, I&apos;ve excelled in crafting web and mobile applications, notably contributing to a crypto trading platform with an integrated bot and a blockchain-based voting website and otthers. Proficient in React, React Native, Next.js, MUI, Tailwind, and AntD, I&apos;ve tackled bug fixes, implemented features, and optimized code for scalability. My role extended to project structuring, using Jira for agile management. My commitment to delivering high-quality products and adapting to evolving technologies positions me as a valuable asset to any forward-looking team. Ready to bring my skills and experience to contribute effectively to new challenges.',
+  },
+  {
+    id: '6',
+    imgSrc: '/exp/ob.png',
+    title: 'Internship at Ookbee U',
+    position: 'Fullstack Developer',
+    period: 'June-December-2022',
+    description:
+      'Career Project, Respectively. When a user locates a position that interests them, they can search and filter the available positions. Despite the fact that the admin page has JWT token authentication and a reset password method that sends an otp to your email when you forget it. The landing page of the website shows the working environment and has a page with filters for the different kinds of jobs that theorganization is looking for.',
+  },
+  {
+    id: '7',
+    imgSrc: '/exp/vango.png',
+    title: 'Capstone Project',
+    position: 'Fullstack Developer',
+    period: '',
+    description:
+      'Reservation Van, Can allow drivers and passengers to see the schedule time, identify passengers who have registered their cars on their maps, and view the route path, which can estimate time and distance from the driver&apos;s location. As a result, we have an admin cms admin who can control the vehicle, schedule, and route.',
+  },
+  {
+    id: '8',
+    imgSrc: '/exp/plant1.png',
+    title: 'University Project',
+    position: 'Fullstack Developer',
+    period: '',
+    description:
+      'Aligned with SDGs, used Flutter to develop a user-engaging app for forest- related activities. Integrated login/profile systems for user customization. Ready to contribute diverse skills and project experience in a professional setting.',
+  },
+  {
+    id: '9',
+    imgSrc: '/exp/plant1.png',
+    title: 'Practice Projects',
+    position: 'HTML, CSS, Javascript',
+    period: '',
+    description:
+      'Developed an image posting site for random posts, created a search engine filtering images by queries, and implemented a location-based weather forecasting system.',
+  },
+]
 
 export default function Experience() {
   return (
@@ -13,66 +77,16 @@ export default function Experience() {
             <ExperienceIcon />
           </div>
           <div className='grid gap-10 xl:grid-cols-2'>
-            <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
-              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/exp/ob.png`}></img>
-                <p className='ml-2 mt-4 font-semibold'>Internship at Ookbee U</p>
-                <p className='ml-2 mt-1'>Fullstack Developer, June-December</p>
-              </div>
-              <p className='m-6 text-center'>
-                {' '}
-                Career Project, Respectively. When a user locates a position that interests them,
-                they can search and filter the available positions. Despite the fact that the admin
-                page has JWT token authentication and a reset password method that sends an otp to
-                your email when you forget it. The landing page of the website shows the working
-                environment and has a page with filters for the different kinds of jobs that the
-                organization is looking for.{' '}
-              </p>
-            </div>
-            <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
-              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/exp/vango.png`}></img>
-                <p className='ml-2 mt-4 font-semibold'>Capstone Project</p>
-                <p className='ml-2 mt-1'>Fullstack Developer</p>
-              </div>
-              <p className='m-6 text-center'>
-                {' '}
-                Reservation Van, Can allow drivers and passengers to see the schedule time, identify
-                passengers who have registered their cars on their maps, and view the route path,
-                which can estimate time and distance from the driver's location. As a result, we
-                have an admin cms admin who can control the vehicle, schedule, and route.{' '}
-              </p>
-            </div>
-            <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
-              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/exp/plant1.png`}></img>
-                <p className='ml-2 mt-4 font-semibold'>University Project</p>
-              </div>
-              <p className='m-6 text-center'>
-                {' '}
-                Reforestation, The main idea is to emphasize the value of forests. We created a
-                platform that is based on the SDGs and uses Flutter to code. Users can publish
-                activities related to the forest to invite others to participate in those
-                activities. The system also contains login and profile systems so users can change
-                their own information.{' '}
-              </p>
-            </div>
-            <div className='w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
-              <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
-                <img className='h-10 w-10' src={`${assetPrefix}/exp/programming.png`}></img>
-                <p className='ml-2 mt-4 font-semibold'>Workshop</p>
-              </div>
-              <div className='m-6'>
-                <p className='text-center'> Postpost(Posting site for random image in post.)</p>
-                <p className='text-center'>
-                  maphoto(Image search engine website. If search for dog, it’s will show only images
-                  of dog)
-                </p>
-                <p className='text-center'>
-                  Seasons(Wether and season forecast based on user location.){' '}
-                </p>
-              </div>
-            </div>
+            {experiences.map((experience) => (
+              <ExperienceBox
+                key={experience.id}
+                imgSrc={experience.imgSrc}
+                title={experience.title}
+                position={experience.position}
+                period={experience.period}
+                description={experience.description}
+              />
+            ))}
           </div>
         </div>
       </div>
