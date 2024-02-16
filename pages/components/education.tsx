@@ -5,7 +5,7 @@ const assetPrefix = '/my-port'
 export default function Education() {
   return (
     <>
-      <div className='sm: mt-10 md:mt-20 xl:px-[15rem] xl:py-40'>
+      <div className='sm: mt-10 mb-10 md:mt-20 xl:px-[15rem] xl:py-40'>
         <div className='grid content-center justify-items-center gap-10 xl:grid-cols-2'>
           <div className='container mx-auto flex flex-col'>
             <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
