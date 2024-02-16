@@ -20,24 +20,44 @@ const skills: Skills[] = [
     name: 'Tailwind',
   },
   {
-    id: '2',
+    id: '21',
     imgSrc: '/skills/react.png',
     name: 'React',
   },
   {
+    id: '22',
+    imgSrc: '/skills/react-native.png',
+    name: 'React',
+  },
+  {
+    id: '23',
+    imgSrc: '/skills/redux.png',
+    name: 'Redux',
+  },
+  {
     id: '3',
-    imgSrc: '/skills/next.png',
+    imgSrc: '/skills/next.jpeg',
     name: 'Next',
   },
   {
-    id: '4',
+    id: '41',
+    imgSrc: '/skills/node.png',
+    name: 'Node',
+  },
+  {
+    id: '42',
+    imgSrc: '/skills/express.png',
+    name: 'Express',
+  },
+  {
+    id: '43',
     imgSrc: '/skills/nest.png',
     name: 'Nest',
   },
   {
     id: '5',
     imgSrc: '/skills/net.png',
-    name: 'DotNext',
+    name: 'DotNet',
   },
   {
     id: '6',
@@ -55,9 +75,14 @@ const skills: Skills[] = [
     name: 'Linux',
   },
   {
-    id: '8',
+    id: '90',
     imgSrc: '/skills/git.png',
     name: 'Git',
+  },
+  {
+    id: '91',
+    imgSrc: '/skills/gitlab.jpeg',
+    name: 'GitLab',
   },
 ]
 
