@@ -70,10 +70,11 @@ export default function Skill() {
             <p>SKills</p>
             <SkillIcon />
           </div>
-          <div className='mt-10 grid grid-flow-col grid-rows-2 items-center justify-center gap-16'></div>
-          {skills.map((skill) => (
-            <SkillBox key={skill.id} imgSrc={skill.imgSrc} name={skill.name} />
-          ))}
+          <div className='mt-10 grid items-center justify-center gap-16 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 '>
+            {skills.map((skill) => (
+              <SkillBox key={skill.id} imgSrc={skill.imgSrc} name={skill.name} />
+            ))}
+          </div>
         </div>
       </div>
     </>
