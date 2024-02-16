@@ -14,7 +14,7 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: '5',
-    imgSrc: 'lag-hyperlink.png',
+    imgSrc: '/exp/lag-hyperlink.png',
     title: 'Fulltime at Lab Hyperlink',
     position: 'Fullstack Developer',
     period: 'current',
@@ -58,7 +58,7 @@ const experiences: Experience[] = [
   },
   {
     id: '9',
-    imgSrc: '/exp/plant1.png',
+    imgSrc: '/exp/programming.png',
     title: 'Practice Projects',
     position: 'HTML, CSS, Javascript',
     period: '',
