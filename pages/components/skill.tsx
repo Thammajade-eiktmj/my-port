@@ -42,12 +42,7 @@ const skills: Skill[] = [
   {
     id: '41',
     imgSrc: '/skills/node.png',
-    name: 'Node',
-  },
-  {
-    id: '42',
-    imgSrc: '/skills/express.png',
-    name: 'Express',
+    name: 'Node & Express',
   },
   {
     id: '43',
