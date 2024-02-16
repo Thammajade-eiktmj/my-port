@@ -1,30 +1,18 @@
 import React from 'react'
+import ExperienceIcon from './icon/experienceIcon'
 
 const assetPrefix = '/my-port'
 
 export default function Experience() {
   return (
     <>
-      <div className='pt-40 px-[15rem]'>
+      <div className='xl:py-40 xl:px-[15rem]'>
         <div className='container mx-auto flex flex-col'>
           <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
             <p>Experience</p>
-            <svg
-              className='ml-2 h-6 w-6'
-              fill='none'
-              stroke='currentColor'
-              viewBox='0 0 24 24'
-              xmlns='http://www.w3.org/2000/svg'
-            >
-              <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
-                d='M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z'
-              ></path>
-            </svg>
+            <ExperienceIcon />
           </div>
-          <div className='grid grid-cols-2 gap-10'>
+          <div className='grid gap-10 xl:grid-cols-2'>
             <div className='mt-10 w-full rounded-[10px] bg-white py-6 px-8 pt-8 shadow'>
               <div className='mt-4 ml-4 flex flex-col items-center justify-center'>
                 <img className='h-10 w-10' src={`${assetPrefix}/exp/ob.png`}></img>

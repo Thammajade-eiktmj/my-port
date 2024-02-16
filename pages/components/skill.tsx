@@ -64,7 +64,7 @@ const skills: Skills[] = [
 export default function Skill() {
   return (
     <>
-      <div className='px-52 pt-40'>
+      <div className='px-52 py-40'>
         <div className='container mx-auto flex flex-col'>
           <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase'>
             <p>SKills</p>

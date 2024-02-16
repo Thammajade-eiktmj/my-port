@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <Intro />
-      {/* <Skill />
+      <Skill />
       <Experience />
-      <Education /> */}
+      <Education />
     </>
   )
 }

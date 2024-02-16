@@ -1,4 +1,4 @@
-const SkillIcon = () => {
+const ExperienceIcon = () => {
   return (
     <svg
       className='ml-2 h-6 w-6'
@@ -17,4 +17,4 @@ const SkillIcon = () => {
   )
 }
 
-export default SkillIcon
+export default ExperienceIcon
