@@ -10,7 +10,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <div className='flex flex-col text-slate-800'>
-        <Nav />
+        {/* <Nav /> */}
         <main className='grow bg-slate-50 pt-20'>{children}</main>
         <Footer />
       </div>
