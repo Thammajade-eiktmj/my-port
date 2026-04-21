@@ -1,95 +1,83 @@
 import React from 'react'
-import ExperienceIcon from './icon/experienceIcon'
-import ExperienceBox from './experienceBox'
 
 interface Experience {
   id: string
-  imgSrc: string
-  title: string
-  position: string
+  company: string
+  role: string
   period: string
+  duration: string
   description: string
 }
 
 const experiences: Experience[] = [
   {
-    id: '5',
-    imgSrc: '/exp/lag-hyperlink.png',
-    title: 'Fulltime at Lab Hyperlink',
-    position: 'Fullstack Developer',
-    period: 'current',
-    description: 'In addition experiences in Node.js, Express.js, React.js and further more',
+    id: '1',
+    company: 'Innovasive',
+    role: 'Frontend Developer',
+    period: 'Nov 2024 - May 2026',
+    duration: '1 Yr 6 Mos',
+    description: 'Developed and maintained high-scale digital transformation platforms and financial systems.',
   },
   {
-    id: '5',
-    imgSrc: '/exp/devcula_logo.jpeg',
-    title: 'Fulltime at Devcula',
-    position: 'Frontend Developer',
-    period: '2023-2024',
-    description:
-      'In my one-year tenure as a frontend developer, I&apos;ve excelled in crafting web and mobile applications, notably contributing to a crypto trading platform with an integrated bot and a blockchain-based voting website and otthers. Proficient in React, React Native, Next.js, MUI, Tailwind, and AntD, I&apos;ve tackled bug fixes, implemented features, and optimized code for scalability. My role extended to project structuring, using Jira for agile management. My commitment to delivering high-quality products and adapting to evolving technologies positions me as a valuable asset to any forward-looking team. Ready to bring my skills and experience to contribute effectively to new challenges.',
+    id: '2',
+    company: 'Nextzy',
+    role: 'Fullstack Developer',
+    period: 'May 2024 - Aug 2024',
+    duration: '4 Mos',
+    description: 'Contributed to fullstack development projects using modern web technologies.',
   },
   {
-    id: '6',
-    imgSrc: '/exp/ob.png',
-    title: 'Internship at Ookbee U',
-    position: 'Fullstack Developer',
-    period: 'June-December-2022',
+    id: '3',
+    company: 'Devcula',
+    role: 'Frontend Developer',
+    period: 'Jan 2023 - Jan 2024',
+    duration: '1 Yr',
     description:
-      'Career Project, Respectively. When a user locates a position that interests them, they can search and filter the available positions. Despite the fact that the admin page has JWT token authentication and a reset password method that sends an otp to your email when you forget it. The landing page of the website shows the working environment and has a page with filters for the different kinds of jobs that theorganization is looking for.',
+      'Excelled in crafting web and mobile applications, notably contributing to a crypto trading platform and a blockchain-based voting website.',
   },
   {
-    id: '7',
-    imgSrc: '/exp/vango.png',
-    title: 'Capstone Project',
-    position: 'Fullstack Developer',
-    period: '',
+    id: '4',
+    company: 'Ookbee U (Intern)',
+    role: 'Fullstack Developer',
+    period: 'Jun 2022 - Dec 2022',
+    duration: '7 Mos',
     description:
-      'Reservation Van, Can allow drivers and passengers to see the schedule time, identify passengers who have registered their cars on their maps, and view the route path, which can estimate time and distance from the driver&apos;s location. As a result, we have an admin cms admin who can control the vehicle, schedule, and route.',
-  },
-  {
-    id: '8',
-    imgSrc: '/exp/plant1.png',
-    title: 'University Project',
-    position: 'Fullstack Developer',
-    period: '',
-    description:
-      'Aligned with SDGs, used Flutter to develop a user-engaging app for forest- related activities. Integrated login/profile systems for user customization. Ready to contribute diverse skills and project experience in a professional setting.',
-  },
-  {
-    id: '9',
-    imgSrc: '/exp/programming.png',
-    title: 'Practice Projects',
-    position: 'HTML, CSS, Javascript',
-    period: '',
-    description:
-      'Developed an image posting site for random posts, created a search engine filtering images by queries, and implemented a location-based weather forecasting system.',
+      'Worked on career projects, implementing JWT authentication, reset password flows, and complex job search filters.',
   },
 ]
 
+import ExperienceIcon from './icon/experienceIcon'
+import ExperienceBox from './experienceBox'
+
 export default function Experience() {
   return (
-    <>
-      <div className='xl:py-40 xl:px-[15rem]'>
-        <div className='container mx-auto flex flex-col'>
-          <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-700'>
-            <p>Experience</p>
+    <div id='experience' className='py-32 xl:px-[15rem] bg-slate-950'>
+      <div className='container mx-auto px-6'>
+        <div className='flex flex-col items-center justify-center mb-20'>
+          <div className='flex items-center text-2xl font-extrabold uppercase text-slate-100 tracking-widest'>
+            <p>Professional Experience</p>
             <ExperienceIcon />
           </div>
-          <div className='grid gap-10 xl:grid-cols-2'>
-            {experiences.map((experience) => (
-              <ExperienceBox
-                key={experience.id}
-                imgSrc={experience.imgSrc}
-                title={experience.title}
-                position={experience.position}
-                period={experience.period}
-                description={experience.description}
-              />
-            ))}
+          <div className='mt-4 flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/20'>
+             <span className='text-slate-400 text-sm font-medium'>Total Experience:</span>
+             <span className='text-emerald-400 text-sm font-black'>3 Years 5 Months</span>
           </div>
         </div>
+
+        <div className='max-w-4xl mx-auto'>
+          {experiences.map((experience, index) => (
+            <ExperienceBox
+              key={experience.id}
+              title={experience.company}
+              position={experience.role}
+              period={experience.period}
+              duration={experience.duration}
+              description={experience.description}
+              isLast={index === experiences.length - 1}
+            />
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   )
 }

@@ -1,112 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: #f4f8fc;
-}
 @layer base {
-  html {
-    background-color: #0f172a;
+  html, body {
+    background-color: #020617; /* slate-950 */
+    color: #f1f5f9; /* slate-100 */
     font-family: 'Poppins', sans-serif !important;
     font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-weight: 300;
   }
 }
 
-/* iphone */
-.box {
-  position: relative;
-  width: 300px;
-  height: 600px;
-  background: #707b8a;
-  border-radius: 50px;
+/* Custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
 }
 
-.box::before {
-  content: '';
-  position: absolute;
-  inset: 3px;
-  background: #000;
-  border-radius: 48px;
-}
-
-.inner {
-  position: absolute;
-  inset: 3px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 48px;
-  border: 10px solid #000;
-  display: flex;
-  justify-content: center;
-  animation: 'change 8s infinite';
-}
-
-@keyframes change {
-  0% {
-    background-image: url('/iphone/ip1.png');
-  }
-  30% {
-    background-image: url('/iphone/ip2.png');
-  }
-  60% {
-    background-image: url('/iphone/ip3.png');
-  }
-  100% {
-    background-image: url('/iphone/ip1.png');
-  }
-}
-/* button iphone */
-
-.btn {
-  position: absolute;
-  top: 110px;
-  left: -2px;
-  width: 2px;
-  height: 26px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  background: radial-gradient(#ccc, #707b8a, #222);
-  z-index: 10;
-}
-.btn.btn2 {
-  top: 160px;
-  height: 40px;
-}
-
-.btn.btn3 {
-  top: 220px;
-  height: 40px;
-}
-
-.rightbutton {
-  position: absolute;
-  top: 170px;
-  right: -2px;
-  width: 2px;
-  height: 70px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  background: radial-gradient(#ccc, #707b8a, #222);
-  z-index: 10;
-}
-/* button iphone */
-
-/* island pop-up */
-.island {
-  position: absolute;
-  top: 10px;
-  width: 90px;
-  height: 25px;
-  background: #000;
-  border-radius: 20px;
-  transition: 0.5s ease-in-out;
-}
-
-.island:hover {
-  width: 200px;
-  height: 25px;
-}
-/* iphone */

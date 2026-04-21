@@ -3,100 +3,103 @@ import SkillBox from './skillBox'
 import SkillIcon from './icon/skillIcon'
 
 interface Skill {
-  id: string
-  imgSrc: string
   name: string
 }
 
-const skills: Skill[] = [
+interface SkillCategory {
+  category: string
+  items: Skill[]
+}
+
+const skillCategories: SkillCategory[] = [
   {
-    id: '0',
-    imgSrc: '/skills/ts.png',
-    name: 'TypeScript',
+    category: 'Programming Languages',
+    items: [
+      { name: 'TypeScript' },
+      { name: 'JavaScript' },
+    ],
   },
   {
-    id: '1',
-    imgSrc: '/skills/tw1.png',
-    name: 'Tailwind',
+    category: 'Frontend',
+    items: [
+      { name: 'React' },
+      { name: 'Next.js' },
+      { name: 'React Native' },
+      { name: 'Tailwind CSS' },
+      { name: 'Material UI' },
+      { name: 'Ant Design' },
+      { name: 'TanStack Query' },
+      { name: 'Valtio' },
+      { name: 'D3.js' },
+      { name: 'Recharts' },
+      { name: 'Lexical' },
+      { name: 'Formik' },
+      { name: 'Yup' },
+      { name: 'Axios' },
+      { name: 'HTML' },
+      { name: 'CSS' },
+    ],
   },
   {
-    id: '21',
-    imgSrc: '/skills/react.png',
-    name: 'React',
+    category: 'Backend & Database',
+    items: [
+      { name: 'Node.js' },
+      { name: 'Express' },
+      { name: 'NestJS' },
+      { name: 'MySQL' },
+      { name: 'PostgreSQL' },
+      { name: 'TypeORM' },
+      { name: 'REST APIs' },
+    ],
   },
   {
-    id: '22',
-    imgSrc: '/skills/react-native.png',
-    name: 'React',
+    category: 'Infra & Development',
+    items: [
+      { name: 'Docker' },
+      { name: 'Git' },
+      { name: 'GitHub' },
+      { name: 'GitLab' },
+      { name: 'Linux' },
+      { name: 'VS Code' },
+      { name: 'Postman' },
+      { name: 'Antigravity' },
+    ],
   },
   {
-    id: '23',
-    imgSrc: '/skills/redux.png',
-    name: 'Redux',
-  },
-  {
-    id: '3',
-    imgSrc: '/skills/next.jpeg',
-    name: 'Next',
-  },
-  {
-    id: '41',
-    imgSrc: '/skills/node.png',
-    name: 'Node & Express',
-  },
-  {
-    id: '43',
-    imgSrc: '/skills/nest.png',
-    name: 'Nest',
-  },
-  {
-    id: '5',
-    imgSrc: '/skills/net.png',
-    name: 'DotNet',
-  },
-  {
-    id: '6',
-    imgSrc: '/skills/typeorm.png',
-    name: 'TypeOrm',
-  },
-  {
-    id: '7',
-    imgSrc: '/skills/docker.png',
-    name: 'Docker',
-  },
-  {
-    id: '8',
-    imgSrc: '/skills/li.png',
-    name: 'Linux',
-  },
-  {
-    id: '90',
-    imgSrc: '/skills/git.png',
-    name: 'Git',
-  },
-  {
-    id: '91',
-    imgSrc: '/skills/gitlab.jpeg',
-    name: 'GitLab',
+    category: 'Collaboration',
+    items: [
+      { name: 'Jira' },
+      { name: 'Figma' },
+      { name: 'Miro' },
+      { name: 'Discord' },
+    ],
   },
 ]
 
 export default function Skill() {
   return (
-    <>
-      <div className='px-52 py-40'>
-        <div className='container mx-auto flex flex-col'>
-          <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase'>
-            <p>SKills</p>
-            <SkillIcon />
-          </div>
-          <div className='mt-10 grid items-center justify-center gap-16 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 '>
-            {skills.map((skill) => (
-              <SkillBox key={skill.id} imgSrc={skill.imgSrc} name={skill.name} />
-            ))}
-          </div>
+    <div className='bg-slate-900/50 py-20 xl:px-[15rem]'>
+      <div className='container mx-auto flex flex-col px-4'>
+        <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-100 mb-16'>
+          <p>Skills</p>
+          <SkillIcon />
+        </div>
+        
+        <div className='space-y-16'>
+          {skillCategories.map((cat, idx) => (
+            <div key={idx} className='space-y-6'>
+              <h3 className='text-xl font-bold text-emerald-400 border-l-4 border-emerald-500 pl-4'>
+                {cat.category}
+              </h3>
+              <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'>
+                {cat.items.map((skill, sIdx) => (
+                  <SkillBox key={sIdx} name={skill.name} />
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    </>
+    </div>
   )
 }
