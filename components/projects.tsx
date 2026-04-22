@@ -9,10 +9,10 @@ const projects = [
       'Engineered a multi-tiered approval system with digital signatures and automated document forwarding using Valtio.',
       'Developed a Lexical-based rich-text infrastructure with dynamic markers and secure QR Code verification.',
       'Integrated AI-powered tools for intelligent form-filling and automated content summarization.',
-      'Architected interactive dashboards using Recharts and D3.js for real-time organizational data insights.',
+      'Architected interactive dashboards using Recharts for real-time organizational data insights.',
       'Leveraged React 19 and Tailwind CSS v4 to deliver a high-performance experience.'
     ],
-    technologies: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS v4', 'Valtio', 'TanStack Query', 'Axios', 'Lexical Editor', 'D3.js', 'Recharts', 'Formik', 'Yup']
+    technologies: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS v4', 'Valtio', 'TanStack Query', 'Axios', 'Lexical Editor', 'Recharts', 'Formik', 'Yup']
   },
   {
     title: 'Financial Management Platform',

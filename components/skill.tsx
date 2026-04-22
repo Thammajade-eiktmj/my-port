@@ -30,7 +30,6 @@ const skillCategories: SkillCategory[] = [
       { name: 'Ant Design' },
       { name: 'TanStack Query' },
       { name: 'Valtio' },
-      { name: 'D3.js' },
       { name: 'Recharts' },
       { name: 'Lexical' },
       { name: 'Formik' },
