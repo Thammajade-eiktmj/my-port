@@ -3,46 +3,68 @@ import React from 'react'
 interface Experience {
   id: string
   company: string
+  companyDescription: string
   role: string
   period: string
   duration: string
-  description: string
+  highlights: string[]
 }
 
 const experiences: Experience[] = [
   {
     id: '1',
     company: 'Innovasive',
+    companyDescription: 'A leading digital transformation agency specializing in high-performance enterprise solutions.',
     role: 'Frontend Developer',
-    period: 'Nov 2024 - May 2026',
+    period: 'Nov 2024 - Present',
     duration: '1 Yr 6 Mos',
-    description: 'Developed and maintained high-scale digital transformation platforms and financial systems.',
+    highlights: [
+      'Built an enterprise Electronic Document Management Portal (EDMS) with complex approval workflows, digital signatures, and QR verification.',
+      'Developed a Provident Fund Management Application with a multi-step onboarding flow and interactive risk assessment.',
+      'Developed an Enterprise Lab Management Application for inventory tracking, user management, and laboratory workflows.',
+      'Implemented state management using Valtio and MobX, and managed API synchronization via TanStack Query.'
+    ],
   },
   {
     id: '2',
     company: 'Nextzy',
-    role: 'Fullstack Developer',
+    companyDescription: 'A dynamic tech firm focusing on modern full-stack development and innovative products.',
+    role: 'Full-stack Developer',
     period: 'May 2024 - Aug 2024',
     duration: '4 Mos',
-    description: 'Contributed to fullstack development projects using modern web technologies.',
+    highlights: [
+      'Built a full-stack Web Road Transportation System using NestJS and Oracle DB.',
+      'Created internal data management pages with React, Redux, and Bootstrap.',
+      'Used Axios to smoothly connect external services for real-time data synchronization.'
+    ],
   },
   {
     id: '3',
     company: 'Devcula',
+    companyDescription: 'A specialized software development house known for blockchain and fintech projects.',
     role: 'Frontend Developer',
     period: 'Jan 2023 - Jan 2024',
     duration: '1 Yr',
-    description:
-      'Excelled in crafting web and mobile applications, notably contributing to a crypto trading platform and a blockchain-based voting website.',
+    highlights: [
+      'Developed a mobile crypto trading app with bot features using React Native.',
+      'Built a secure blockchain voting website using Next.js, Tailwind CSS, MUI, and Ant Design.',
+      'Handled complex data and forms with GraphQL, React Query, and React Hook Form.',
+      'Set up automated tests with Playwright to ensure high application reliability.'
+    ],
   },
   {
     id: '4',
-    company: 'Ookbee U (Intern)',
-    role: 'Fullstack Developer',
+    company: 'Ookbee',
+    companyDescription: 'One of SE Asia\'s largest digital content platforms and tech ecosystems.',
+    role: 'Full-stack Developer (Intern)',
     period: 'Jun 2022 - Dec 2022',
     duration: '7 Mos',
-    description:
-      'Worked on career projects, implementing JWT authentication, reset password flows, and complex job search filters.',
+    highlights: [
+      'Built websites from front-end to back-end using React, Next.js, NestJS, and Node.js.',
+      'Designed web interfaces using Tailwind CSS, Ant Design, and MUI.',
+      'Managed databases like PostgreSQL and MongoDB and built standard REST APIs.',
+      'Learned clean code practices, project structuring, and application performance optimization.'
+    ],
   },
 ]
 
@@ -55,12 +77,12 @@ export default function Experience() {
       <div className='container mx-auto px-6'>
         <div className='flex flex-col items-center justify-center mb-20'>
           <div className='flex items-center text-2xl font-extrabold uppercase text-slate-100 tracking-widest'>
-            <p>Professional Experience</p>
+            <p>Career Journey</p>
             <ExperienceIcon />
           </div>
           <div className='mt-4 flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/20'>
              <span className='text-slate-400 text-sm font-medium'>Total Experience:</span>
-             <span className='text-emerald-400 text-sm font-black'>3 Years 5 Months</span>
+             <span className='text-emerald-400 text-sm font-black'>4 Years</span>
           </div>
         </div>
 
@@ -69,10 +91,11 @@ export default function Experience() {
             <ExperienceBox
               key={experience.id}
               title={experience.company}
+              companyDescription={experience.companyDescription}
               position={experience.role}
               period={experience.period}
               duration={experience.duration}
-              description={experience.description}
+              highlights={experience.highlights}
               isLast={index === experiences.length - 1}
             />
           ))}

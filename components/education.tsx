@@ -19,19 +19,12 @@ export default function Education() {
             </div>
             <div className='rounded-2xl bg-slate-900/50 p-8 shadow-xl border border-slate-800'>
               <ol className='relative border-l border-emerald-500/30 ml-3'>
-                <li className='mb-10 ml-6'>
+                <li className='mb-2 ml-6'>
                   <div className='absolute -left-[1.65rem] mt-1.5 h-4 w-4 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]'></div>
                   <time className='mb-1 text-sm font-semibold text-emerald-400'>2019 - 2023</time>
                   <h3 className='text-xl font-bold text-slate-100 mt-1'>Bachelor of Science</h3>
                   <p className='text-slate-300 font-medium'>King Mongkut's University of Technology Thonburi</p>
-                  <p className='text-slate-400 text-sm mt-2'>Department: Computer Science (English Program)</p>
-                </li>
-                <li className='mb-2 ml-6'>
-                  <div className='absolute -left-[1.65rem] mt-1.5 h-4 w-4 rounded-full bg-slate-700'></div>
-                  <time className='mb-1 text-sm font-semibold text-slate-500'>April 2019</time>
-                  <h3 className='text-xl font-bold text-slate-100 mt-1'>High School</h3>
-                  <p className='text-slate-300 font-medium'>Korn Pitack Suksa School</p>
-                  <p className='text-slate-400 text-sm mt-2'>Major of Mathematics and Science</p>
+                  <p className='text-slate-400 text-sm mt-2'>Computer Science (English Program) (CS)</p>
                 </li>
               </ol>
             </div>
@@ -49,24 +42,21 @@ export default function Education() {
               <ol className='relative border-l border-emerald-500/30 ml-3'>
                 <li className='mb-10 ml-6'>
                   <div className='absolute -left-[1.65rem] mt-1.5 h-4 w-4 rounded-full bg-emerald-500'></div>
-                  <time className='mb-1 text-sm font-semibold text-emerald-400'>2023</time>
-                  <h3 className='text-xl font-bold text-slate-100 mt-1'>NVIDIA DLI</h3>
+                  <h3 className='text-xl font-bold text-slate-100 mt-1'>NVIDIA DLI Certificate Completion</h3>
                   <p className='text-slate-400 text-sm mt-1'>Foundation of Deep Learning</p>
                   <button onClick={() => window.open(`${assetPrefix}/cer3.png`)} className='mt-3 text-emerald-400 text-sm font-bold hover:underline py-1'>View Certificate</button>
                 </li>
                 <li className='mb-10 ml-6'>
                   <div className='absolute -left-[1.65rem] mt-1.5 h-4 w-4 rounded-full bg-slate-700'></div>
-                  <time className='mb-1 text-sm font-semibold text-slate-500'>January 2022</time>
-                  <h3 className='text-xl font-bold text-slate-100 mt-1'>Kaggle</h3>
-                  <p className='text-slate-400 text-sm mt-1'>Introduction to Machine Learning</p>
-                  <button onClick={() => window.open(`${assetPrefix}/cer2.png`)} className='mt-3 text-emerald-400 text-sm font-bold hover:underline py-1'>View Certificate</button>
+                  <h3 className='text-xl font-bold text-slate-100 mt-1'>CITI program</h3>
+                  <p className='text-slate-400 text-sm mt-1'>Human Subjects Research (HSR) and BioMed-Social Sci Basic Course</p>
+                  <button onClick={() => window.open(`${assetPrefix}/cer1.pdf`)} className='mt-3 text-emerald-400 text-sm font-bold hover:underline py-1'>View Certificate</button>
                 </li>
                 <li className='mb-2 ml-6'>
                   <div className='absolute -left-[1.65rem] mt-1.5 h-4 w-4 rounded-full bg-slate-700'></div>
-                  <time className='mb-1 text-sm font-semibold text-slate-500'>October 2021</time>
-                  <h3 className='text-xl font-bold text-slate-100 mt-1'>CITI Program</h3>
-                  <p className='text-slate-400 text-sm mt-1'>Human Subjects Research (HSR) Basic Course</p>
-                  <button onClick={() => window.open(`${assetPrefix}/cer1.pdf`)} className='mt-3 text-emerald-400 text-sm font-bold hover:underline py-1'>View Certificate</button>
+                  <h3 className='text-xl font-bold text-slate-100 mt-1'>Kaggle certificate</h3>
+                  <p className='text-slate-400 text-sm mt-1'>Introduction to machine learning</p>
+                  <button onClick={() => window.open(`${assetPrefix}/cer2.png`)} className='mt-3 text-emerald-400 text-sm font-bold hover:underline py-1'>View Certificate</button>
                 </li>
               </ol>
             </div>

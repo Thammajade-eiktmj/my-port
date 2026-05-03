@@ -3,37 +3,60 @@ import ProjectBox from './projectBox'
 
 const projects = [
   {
-    title: 'Electronic Document Management System',
-    description: 'A high-scale digital transformation platform for complex administrative workflows.',
+    title: 'Electronic Document Management Portal (Antigravity)',
+    description: 'Built an enterprise EDMS with complex approval workflows, digital signatures, and QR verification.',
     highlights: [
-      'Engineered a multi-tiered approval system with digital signatures and automated document forwarding using Valtio.',
-      'Developed a Lexical-based rich-text infrastructure with dynamic markers and secure QR Code verification.',
-      'Integrated AI-powered tools for intelligent form-filling and automated content summarization.',
-      'Architected interactive dashboards using Recharts for real-time organizational data insights.',
-      'Leveraged React 19 and Tailwind CSS v4 to deliver a high-performance experience.'
+      'Developed the core frontend using Vite React 19 and Tailwind v4.',
+      'Implemented a custom Lexical text editor for professional document creation.',
+      'Integrated AI document summarization for improved administrative efficiency.',
+      'Designed interactive Recharts dashboards for real-time organizational insights.',
     ],
-    technologies: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS v4', 'Valtio', 'TanStack Query', 'Axios', 'Lexical Editor', 'Recharts', 'Formik', 'Yup']
+    technologies: ['Vite', 'React 19', 'Tailwind CSS v4', 'Lexical Editor', 'Recharts', 'AI Integration']
   },
   {
-    title: 'Financial Management Platform',
-    description: 'A large-scale financial system for a major national utility organization.',
+    title: 'Provident Fund Management Application (Antigravity)',
+    description: 'A multi-step onboarding flow for fund membership and interactive risk assessment.',
     highlights: [
-      'Built a seamless enrollment flow with integrated risk assessment and investment profiling.',
-      'Implemented AI features for document management to automate and reduce administrative overhead.',
-      'Developed a high-performance, responsive UI using React and Tailwind CSS v4 for thousands of users.',
-      'Managed complex financial data states using Valtio to ensure real-time consistency and maintainability.'
+      'Built a multi-step onboarding flow for fund membership using Formik and Valtio.',
+      'Developed an interactive risk assessment module that adapts UI themes based on results.',
+      'Implemented complex form handling for member profiles, beneficiaries, and investment plans.',
+      'Integrated PDPA consent and registration APIs via TanStack Query.',
+      'Managed application routing with Wouter for a seamless user experience.'
     ],
-    technologies: ['React', 'TypeScript', 'Tailwind CSS v4', 'Valtio', 'TanStack Query', 'Axios']
+    technologies: ['Vite', 'React 19', 'TypeScript', 'Tailwind CSS v4', 'Formik', 'Valtio', 'TanStack Query', 'Wouter']
   },
   {
-    title: 'Polling & Voting Application',
-    description: 'Developed a versatile polling engine supporting multiple formats: single-choice, multiple-choice, and open-ended responses.',
+    title: 'Enterprise Lab Management Application',
+    description: 'An enterprise management system for inventory tracking and laboratory workflows.',
     highlights: [
-      'Integrated social engagement features, including real-time liking and commenting systems.',
-      'Optimized data fetching and server-state synchronization using React Query.',
-      'Designed a clean and intuitive user interface using Material UI.'
+      'Built core modules for inventory tracking, user management, and laboratory workflows.',
+      'Implemented state management using MobX for complex application states.',
+      'Integrated digital signature features for secure laboratory document approvals.',
+      'Handled complex form data with Formik and managed API synchronization through TanStack Query.'
     ],
-    technologies: ['React', 'Next.js', 'TypeScript', 'Material UI (MUI)', 'React Query']
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'MobX', 'Formik', 'TanStack Query']
+  },
+  {
+    title: 'Web Road Transportation System',
+    description: 'A full-stack system for managing road transportation data and internal operations.',
+    highlights: [
+      'Handled the backend using NestJS and Oracle DB for robust data management.',
+      'Created internal data management pages with React and Redux.',
+      'Styled the interface using Bootstrap and used Axios to connect external services.'
+    ],
+    technologies: ['NestJS', 'Oracle DB', 'React', 'Redux', 'Bootstrap', 'Axios']
+  },
+  {
+    title: 'FinTech Crypto & Blockchain Voting',
+    description: 'A mobile crypto trading app and a secure blockchain-based voting website.',
+    highlights: [
+      'Developed a mobile crypto trading app with bot features using React Native.',
+      'Built a secure blockchain voting website using Next.js and secure smart contracts.',
+      'Designed clean, responsive screens using Tailwind CSS, MUI, and Ant Design.',
+      'Handled complex data and forms with GraphQL, React Query, and React Hook Form.',
+      'Set up automated tests with Playwright to ensure application reliability.'
+    ],
+    technologies: ['React Native', 'Next.js', 'Tailwind CSS', 'MUI', 'Ant Design', 'GraphQL', 'React Query', 'Playwright']
   }
 ]
 
