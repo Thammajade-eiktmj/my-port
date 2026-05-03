@@ -6,27 +6,41 @@
 
 @layer base {
   html, body {
-    background-color: #020617; /* slate-950 */
-    color: #f1f5f9; /* slate-100 */
+    background-color: #f1f5f9; /* slate-100 - consistent and easy on eyes */
+    color: #334155; /* slate-600 */
     font-family: 'Poppins', sans-serif !important;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #0f172a; /* slate-900 */
+    font-weight: 800;
   }
 }
 
-/* Custom scrollbar for premium feel */
+/* Background Mesh Gradient - Subtler Indigo/Teal for Light Mode */
+.bg-mesh {
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(243, 75%, 59%, 0.03) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(173, 80%, 40%, 0.03) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, hsla(243, 75%, 59%, 0.02) 0px, transparent 50%);
+}
+
+/* Custom scrollbar for Light Mode */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #020617;
+  background: #f8fafc;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #cbd5e1;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: #94a3b8;
 }
 

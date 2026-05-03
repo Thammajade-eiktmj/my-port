@@ -62,12 +62,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className='bg-slate-900 py-20 xl:px-[15rem]'>
+    <div className='bg-transparent py-20 xl:px-[15rem]'>
       <div className='container mx-auto flex flex-col'>
-        <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-100 mb-12'>
+        <div className='flex items-center justify-center text-start text-2xl font-black uppercase text-slate-900 mb-12'>
           <p>Projects</p>
           <svg
-            className='ml-3 h-8 w-8 text-emerald-500'
+            className='ml-3 h-8 w-8 text-teal-600'
             fill='none'
             stroke='currentColor'
             viewBox='0 0 24 24'

@@ -92,9 +92,9 @@ const skillCategories: SkillCategory[] = [
 
 export default function Skill() {
   return (
-    <div className='bg-slate-900/50 py-20 xl:px-[15rem]'>
+    <div className='bg-transparent py-20 xl:px-[15rem]'>
       <div className='container mx-auto flex flex-col px-4'>
-        <div className='flex items-center justify-center text-start text-2xl font-extrabold uppercase text-slate-100 mb-16'>
+        <div className='flex items-center justify-center text-start text-2xl font-black uppercase text-slate-900 mb-16'>
           <p>Skills</p>
           <SkillIcon />
         </div>
@@ -102,7 +102,7 @@ export default function Skill() {
         <div className='space-y-16'>
           {skillCategories.map((cat, idx) => (
             <div key={idx} className='space-y-6'>
-              <h3 className='text-xl font-bold text-emerald-400 border-l-4 border-emerald-500 pl-4'>
+              <h3 className='text-xl font-bold text-teal-600 border-l-4 border-teal-500 pl-4'>
                 {cat.category}
               </h3>
               <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'>

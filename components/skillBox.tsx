@@ -11,13 +11,13 @@ const SkillBox = ({ name }: SkillBoxProp) => {
     : name.substring(0, 2)
 
   return (
-    <div className='flex flex-col items-center justify-center rounded-xl bg-slate-900/40 p-5 border border-slate-800 hover:border-emerald-500/50 hover:bg-slate-900/60 transition-all group'>
-      <div className='h-14 w-14 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-500 group-hover:border-emerald-500/30 group-hover:text-emerald-400 transition-all shadow-inner'>
-        <span className='text-lg font-bold uppercase tracking-tighter group-hover:scale-110 transition-transform'>
+    <div className='group flex flex-col items-center justify-center rounded-2xl bg-white p-4 shadow-sm border border-slate-100 hover:border-teal-500/40 hover:shadow-md transition-all duration-300'>
+      <div className='relative flex h-12 w-12 items-center justify-center rounded-xl bg-slate-50 border border-slate-100 text-slate-400 transition-all duration-300 group-hover:border-teal-500/30 group-hover:text-teal-600 group-hover:shadow-[0_0_20px_rgba(20,184,166,0.1)]'>
+        <span className='text-sm font-black uppercase tracking-tight group-hover:scale-110 transition-transform'>
           {initials}
         </span>
       </div>
-      <p className='mt-4 text-xs font-semibold text-slate-400 group-hover:text-emerald-400 transition-colors text-center tracking-tight'>
+      <p className='mt-3 text-[11px] font-bold text-slate-500 group-hover:text-slate-900 transition-colors text-center uppercase tracking-wider'>
         {name}
       </p>
     </div>

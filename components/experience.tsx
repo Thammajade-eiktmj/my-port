@@ -73,16 +73,16 @@ import ExperienceBox from './experienceBox'
 
 export default function Experience() {
   return (
-    <div id='experience' className='py-32 xl:px-[15rem] bg-slate-950'>
+    <div id='experience' className='py-32 xl:px-[15rem] bg-transparent'>
       <div className='container mx-auto px-6'>
         <div className='flex flex-col items-center justify-center mb-20'>
-          <div className='flex items-center text-2xl font-extrabold uppercase text-slate-100 tracking-widest'>
+          <div className='flex items-center text-2xl font-black uppercase text-slate-900 tracking-widest'>
             <p>Career Journey</p>
             <ExperienceIcon />
           </div>
-          <div className='mt-4 flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/5 border border-emerald-500/20'>
-             <span className='text-slate-400 text-sm font-medium'>Total Experience:</span>
-             <span className='text-emerald-400 text-sm font-black'>4 Years</span>
+          <div className='mt-4 flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-50 border border-teal-100'>
+             <span className='text-slate-500 text-sm font-medium'>Total Experience:</span>
+             <span className='text-teal-600 text-sm font-black'>4 Years</span>
           </div>
         </div>
 
